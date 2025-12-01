@@ -20,7 +20,7 @@ const brandsLogos = [
 
 const Brands = () => {
   return (
-    <div className="px-4 py-10 md:py-18 md:max-w-7xl mx-auto">
+    <div className="px-4 py-8 md:max-w-7xl mx-auto">
       <h2 className="text-3xl text-center text-[#03464D] font-bold mb-10 md:mb-18">
         We've helped thousands of sales teams
       </h2>
@@ -36,8 +36,6 @@ const Brands = () => {
           ))}
         </div>
       </Marquee>
-      {/* LINE */}
-      {/* <div className="border-b border-dashed border-gray-400 mt-18"></div> */}
     </div>
   );
 };

@@ -25,8 +25,8 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <div className="w-full  py-10">
-      <div className="max-w-7xl mx-auto space-y-6 px-4">
+    <div className="w-full py-10 ">
+      <div className="max-w-7xl mx-auto space-y-6 px-4 border-y-2 border-dashed border-gray-400 py-10 md:py-24 ">
         {features.map((item, index) => (
           <div
             key={index}
